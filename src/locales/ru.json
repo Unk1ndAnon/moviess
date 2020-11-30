@@ -1,0 +1,54 @@
+{
+  "movie_search": {
+    "input_placeholder": "Поиск по названию фильма",
+    "found": {
+      "count_0": "Найден",
+      "count_1": "Найдено",
+      "count_2": "Найдено"
+    },
+    "movie": {
+      "count_0": "фильм",
+      "count_1": "фильма",
+      "count_2": "фильмов"
+    },
+    "by_title": "по поисковому запросу"
+  },
+  "page_404": "404 - Извините. У нас нет подходящей страницы для этого маршрута",
+  "movie_types": {
+    "now_playing": "Сейчас в кино",
+    "popular": "Популярные",
+    "top_rated": "Лучший рейтинг",
+    "upcoming": "Скоро в кино"
+  },
+  "movie_list": {
+    "empty_poster": "Нет постера"
+  },
+  "movie_details": {
+    "original_title": "Оригинальное название",
+    "rating_votes": {
+      "count_0": "голос",
+      "count_1": "голосa",
+      "count_2": "голосов"
+    },
+    "duration": {
+      "hours": "ч",
+      "minutes": "м"
+    },
+    "crew": {
+      "director": "Режиссер",
+      "writing": "Сценарий",
+      "director_of_photography": "Оператор",
+      "original_music_composer": "Композитор"
+    },
+    "actors": {
+      "section_label": "Актеры",
+      "toggle_label": "Показать всех"
+    },
+    "images": {
+      "section_label": "Изображения"
+    },
+    "recommendations": {
+      "section_label": "Рекоммендации"
+    }
+  }
+}

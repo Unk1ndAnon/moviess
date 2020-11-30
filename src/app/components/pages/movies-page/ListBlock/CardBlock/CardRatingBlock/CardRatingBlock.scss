@@ -1,0 +1,14 @@
+@import '@/assets/css/theme/colors';
+
+.list-card__rating {
+  position: absolute;
+  min-width: 35px;
+  right: 7px;
+  bottom: 7px;
+  padding: 5px;
+  font-size: 0.8em;
+  text-align: center;
+  color: $yellow;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}

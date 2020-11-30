@@ -1,0 +1,16 @@
+@import '@/assets/css/theme/colors';
+
+.toggle-block {
+  .custom-control-label {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .custom-control-input:checked ~ .custom-control-label {
+    &::before {
+      border-color: $lightpurple;
+      background-color: $lightpurple;
+    }
+  }
+}

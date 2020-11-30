@@ -1,0 +1,44 @@
+@import '@/assets/css/theme/variables';
+@import '@/assets/css/theme/colors';
+@import '@/assets/css/theme/mixins';
+
+$base: 'list-card';
+
+.#{$base} {
+  display: flex;
+  flex-direction: column;
+  width: $list-card-width;
+  margin-bottom: 15px;
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+
+  @media screen and (max-width: 576px) {
+    width: $list-card-width--sm;
+  }
+
+  &:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+    cursor: pointer;
+
+    @media screen and (max-width: 576px) {
+      transform: none;
+    }
+  }
+
+  .#{$base}__body {
+    flex: 1 1 auto;
+    position: relative;
+    padding: 0.3rem;
+  }
+
+  .#{$base}__title {
+    @include text-ellipsis;
+    line-height: 1.2;
+    color: $white_mod;
+  }
+
+  .#{$base}__genres {
+    @include text-ellipsis;
+    color: $lightblue;
+  }
+}
